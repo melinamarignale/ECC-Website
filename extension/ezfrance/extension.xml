@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<software>
+	<metadata>
+		<name>Pack eZ France</name>
+		<version>4.4.0</version>
+		<copyright>Copyright (C) 2010 eZ France Team</copyright>
+		<license>GNU General Public License v2.0</license>
+		<info_url>http://ez-france.org</info_url>
+	</metadata>
+</software>

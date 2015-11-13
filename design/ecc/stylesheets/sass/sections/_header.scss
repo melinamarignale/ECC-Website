@@ -1,0 +1,57 @@
+header {
+	height: 180px;
+	margin: 0 auto;
+	padding-top: 70px;
+	position: relative;
+	width: 990px;
+
+	h1 {
+		background: url('../images/logo.png') no-repeat center;
+		font-size: 0;
+		height: 84px;
+		margin: 0 auto;
+		text-indent: -9999px;
+		width: 341px;
+
+		a {
+			display: block;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	.countryswitch {
+		@include horizontal-list-container;
+		position: absolute;
+		right: 0;
+		top: 0;
+		li {
+			@include horizontal-list-item;
+			@include box-sizing(border-box);
+			@include background(linear-gradient(top, #e79300 0%, #e39100 55%, #b47300 90%, #a76a00 100%));
+			border: 1px solid #000000;
+			border-top: none;
+			color: $text;
+			cursor: pointer;
+			font-size: em(14px);
+			height: 40px;
+			padding: 0;
+			text-align: center;
+			text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+			width: 40px;
+			&:hover {
+				@include background(linear-gradient(top,#189fcc 0%, #179bc7 55%, #137c9f 90%, #18738c 100%));
+				a {
+					color: $text;
+				}
+			}
+			a {
+				display: block;
+				height: 100%;
+				line-height: em(35px);
+				text-decoration: none;
+				width: 100%;
+			}
+		}
+	}
+}

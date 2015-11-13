@@ -1,0 +1,8 @@
+@include sticky-footer(40px, "#layout", "#layout-footer", "#footer");
+
+footer {
+	color: $disabled;
+	font-size: em(11px);
+	line-height: 1.3em;
+	text-align: center;
+}

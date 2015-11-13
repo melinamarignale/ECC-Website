@@ -1,0 +1,24 @@
+<?php /* #?ini charset="utf-8"?
+
+
+[AttributesMapping]
+DefaultName[]
+DefaultName[]=name
+DefaultName[]=titre
+
+DefaultDescription[]
+DefaultDescription[]=texte
+DefaultDescription[]=body
+DefaultDescription[]=name
+
+DefaultKeywords[]
+DefaultKeywords[]=keywords
+
+
+SpecialMapping[]
+MetatagAttributeIdentifier=meta_tag
+
+
+*/
+
+?>
