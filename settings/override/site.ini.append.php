@@ -41,13 +41,17 @@ CheckValidity=false
 AvailableSiteAccessList[]=ecc
 AvailableSiteAccessList[]=ecc_en
 AvailableSiteAccessList[]=ecc_admin
+ForceVirtualHost=true
 MatchOrder=host
 HostMatchType=map
-HostMatchMapItems[]=adminlocal.evecorpcenter.com;ecc_admin
+HostMatchMapItems[]=admin.evecorpcenter.dev;ecc_admin
+HostMatchMapItems[]=fr.evecorpcenter.dev;ecc
+HostMatchMapItems[]=www.evecorpcenter.dev;ecc_en
+HostMatchMapItems[]=evecorpcenter.dev;ecc_en
 HostMatchMapItems[]=admin.evecorpcenter.com;ecc_admin
-HostMatchMapItems[]=evecorpcenter.com;ecc_en
-HostMatchMapItems[]=www.evecorpcenter.com;ecc_en
 HostMatchMapItems[]=fr.evecorpcenter.com;ecc
+HostMatchMapItems[]=www.evecorpcenter.com;ecc_en
+HostMatchMapItems[]=evecorpcenter.com;ecc_en
 
 [DebugSettings]
 AlwaysLog[]=error
