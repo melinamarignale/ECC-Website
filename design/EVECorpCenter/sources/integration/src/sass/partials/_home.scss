@@ -1,0 +1,57 @@
+.home-content {
+    .section--intro {
+        background: url('../img/bg-home.png') no-repeat center;
+        background-size: cover;
+        min-height: 630px;
+    }
+    .intro__logo {
+        margin-top: 150px;
+        img {
+            width: 280px;
+            height: auto;
+        }
+    }
+    .intro__text {
+        width: 70%;
+        max-width: 500px;
+        margin: 30px auto 70px;
+        font-size: 16px;
+        p {
+            margin: 0;
+        }
+    }
+    .intro__btns {
+        .intro__btn-discover {
+            margin-right: 100px;
+        }
+    }
+    .section--discover {
+        padding: 0 100px;
+        .section__paragraph {
+            p {
+                margin-bottom: 40px;
+            }
+            .object-right {
+                float: right;
+                margin-left: 50px;
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .section--roadmap {
+        background: url('../img/bg-roadmap.png') no-repeat center;
+        background-size: cover;
+        .roadmap__title {
+            color: #fff;
+        }
+        .roadmap__text {
+            background: #000;
+            height: 190px;
+        }
+    }
+    .section--download {
+
+    }
+}

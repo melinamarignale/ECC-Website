@@ -1,0 +1,44 @@
+.navbar-default {
+    background: $bg-grey;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    .container-fluid {
+        width: 80%;
+        height: 75px;
+        padding-top: 10px;
+        text-transform: uppercase;
+    }
+    .navbar-nav {
+        >li {
+            min-width: 100px;
+            >a {
+                color: #fff;
+                position: relative;
+                text-align: center;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 60%;
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    background-color: #fff;
+                    visibility: hidden;
+                    transform: scaleX(0);
+                    transition: all 0.3s ease-in-out 0s;
+                }
+                &:hover {
+                    background: none;
+                    color: #fff;
+                    &:before {
+                        visibility: visible;
+                        transform: scaleX(1);
+                    }
+                }
+            }
+        }
+    }
+}
